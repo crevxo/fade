@@ -1,17 +1,17 @@
 # Fade
 
 A menu bar to-do list for macOS. Finished tasks delete themselves after a delay
-you choose -- that's the whole point of it.
+you choose.
 
 ## What it does
 
 Click the menu bar icon, type a task, hit Return. Click the circle to check it
-off -- it slides into **Completed** with a countdown showing how long until it
+off. It slides into **Completed** with a countdown showing how long until it
 disappears on its own.
 
 Settings, from the gear menu:
 
-- **Finished tasks disappear** -- never / 1 hour / 6 hours / 24 hours / 3 days / 1 week
+- **Finished tasks disappear:** never / 1 hour / 6 hours / 24 hours / 3 days / 1 week
 - **Show count in menu bar**
 - **Open at login**
 
@@ -28,7 +28,7 @@ bottom in dimmer text, normal shows nothing at all.
 
 Each task records when it was checked off. Every 30 seconds Fade drops any
 completed task past its limit and rewrites its JSON file. No daemon, no
-scheduler -- if the app isn't running nothing is deleted, and it catches up next
+scheduler. If the app is not running, nothing is deleted; it catches up next
 launch. Un-checking a task clears its completion time, so it stops counting
 down.
 
@@ -56,7 +56,8 @@ app opens normally for good.
 
 ## Updates
 
-Fade does not update itself. Watch this repo to hear when a new version lands.
+Fade checks this repository for updates when it opens. It asks before
+downloading or installing anything.
 
 ## Source
 
