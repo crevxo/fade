@@ -3,8 +3,6 @@
 A menu bar to-do list for macOS. Finished tasks delete themselves after a delay
 you choose -- that's the whole point of it.
 
-Built as a replacement for TaskTab, which has no auto-delete.
-
 ## What it does
 
 Click the menu bar icon, type a task, hit Return. Click the circle to check it
