@@ -13,6 +13,7 @@ Settings, from the gear menu:
 
 - **Finished tasks disappear:** never / 1 hour / 6 hours / 24 hours / 3 days / 1 week
 - **Show count in menu bar**
+- **Animate completing tasks** -- strike, fade, then move to Completed; off moves it instantly
 - **Open at login**
 
 Hovering an unfinished task reveals a **flag** to set priority and **✕** to
@@ -33,6 +34,12 @@ launch. Un-checking a task clears its completion time, so it stops counting
 down.
 
 Tasks are plain JSON, readable and editable by hand.
+
+## Updates
+
+On launch Fade asks GitHub once whether a newer release exists. If one does, a
+banner offers **Update** or **Later**. Nothing downloads unless you press
+Update.
 
 ## Installing
 
